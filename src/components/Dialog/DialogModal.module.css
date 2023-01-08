@@ -1,0 +1,22 @@
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+:global(.MuiDialog-paperWidthSm) {
+    width: 450px;
+    min-height: 350px;
+}
+
+:global(.MuiDialogTitle-root) {
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+:global(.MuiDialogContent-root) {
+    padding-top: 10px !important;
+}
